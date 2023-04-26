@@ -2,18 +2,25 @@ body {
     padding: 0px !important;
     margin: 0px -15px 0px -15px !important;
     font-family:'Oswald', sans-serif !important;
-    font-weight: 450;
+    font-weight: 500;
     text-align: center;
 }
 
+.domandatest {
+    text-align: left;
+}
+
+.testo-da-colorare {
+    color:blueviolet;
+}
 
 nav ul li {
 display: inline-block;
 padding: 10% 10% 0px 10%
 }
 
-#homeimg,#farfallaimg {
-    height: 400px;
+#natureimg, #cityimg, #dayimg, #nightimg,#drammaticoimg,#tranquilloimg {
+    height: 300px;
     width: auto;
 }
 
