@@ -1,5 +1,5 @@
 body {
-    padding: 0px !important;
+    padding: 0px -15px 0px -15px !important;
     margin: 0px -15px 0px -15px !important;
     font-family:'Oswald', sans-serif !important;
     font-weight: 500;
@@ -11,7 +11,7 @@ body {
 }
 
 .testo-da-colorare {
-    color:blueviolet;
+    color:#1d7948;
 }
 
 nav ul li {
@@ -19,23 +19,33 @@ display: inline-block;
 padding: 10% 10% 0px 10%
 }
 
-#natureimg, #cityimg, #dayimg, #nightimg,#drammaticoimg,#tranquilloimg {
+#natureimg, #dayimg, #nightimg,#drammaticoimg,#tranquilloimg,#cityimg {
     height: 300px;
     width: auto;
 }
 
+
+
+
+
 header {
-    background-color: #09D181;
-    color: whitesmoke;
+    background-color: #1d7948;
+    color: #ddea90;
 
 }
 
 .whitelink {
-    color: whitesmoke
+    color: #ddea90
+    
+}
+
+a:hover {
+    color: black;
 }
 
 .redlink {
-    color: darkred
+    color: #b94429;
+    
 }
 
 header,section {
@@ -43,8 +53,8 @@ header,section {
 }
 
 .active {
-    color: #09D181;
-    background-color: whitesmoke;
+    color: #1d7948;
+    background-color: #ddea90;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
@@ -57,16 +67,21 @@ header,section {
 #footerarea{
     position: relative;
     z-index: 1;
-    background-color:#09D181;
+    background-color:#1d7948;
     padding:30px  100px 50px 100px;
 }
 
 #infoautore{
-    color:bisque;
+    color:#ddea90;
     
 }
 
 .menufooter{
-    color:bisque;
+    color: #ddea90;
     display: inline-block;
 }
+
+.fa-brands {
+    color:#ddea90;
+}
+
