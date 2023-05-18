@@ -24,10 +24,6 @@ padding: 10% 10% 0px 10%
     width: auto;
 }
 
-
-
-
-
 header {
     background-color: #1d7948;
     color: #ddea90;
@@ -69,6 +65,7 @@ header,section {
     z-index: 1;
     background-color:#1d7948;
     padding:30px  100px 50px 100px;
+    margin-top: 40px;
 }
 
 #infoautore{
@@ -108,3 +105,14 @@ header,section {
     margin-bottom: 20px;
 }
 
+.testomoltogrande {
+    font-size: 50px;
+}
+
+.testogrande {
+    font-size: 30px;
+}
+
+.testomedio {
+    font-size: 20px;
+}
