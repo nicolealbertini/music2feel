@@ -57,7 +57,7 @@ header,section {
 
 .nounderline {
     text-decoration: none;
-    padding: 10px 10px 0px 10px; 
+    padding: 10px 10px 0px 10px;
 }
 
 #footerarea{
@@ -65,7 +65,7 @@ header,section {
     z-index: 1;
     background-color:#1d7948;
     padding:30px  100px 50px 100px;
-    margin-top: 40px;
+
 }
 
 #infoautore{
@@ -84,6 +84,7 @@ header,section {
 
 .allineareasinistra {
     text-align: justify;
+    line-height: 40px;
 }
 
 .sottolineato {
@@ -91,8 +92,8 @@ header,section {
 }
 
 .spaziogrande {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .spaziomedio {
@@ -115,4 +116,9 @@ header,section {
 
 .testomedio {
     font-size: 20px;
+}
+
+#googleanalyticsimg {
+    height:400px;
+    width: auto;
 }
