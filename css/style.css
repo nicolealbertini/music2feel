@@ -122,3 +122,18 @@ header,section {
     height:400px;
     width: auto;
 }
+
+#bottone {
+    margin-bottom: 10%;
+    color: #1d7948;
+    background-color: #ddea90;
+    border:dotted #1d7948;
+    height: 50%;
+    width: auto;
+    
+}
+
+#bottone:hover {
+    color: black;
+    text-decoration: underline;
+}
